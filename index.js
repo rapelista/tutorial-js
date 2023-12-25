@@ -1,19 +1,15 @@
-// import tambah from "./aritmatika/tambah.js";
-// import { printNama, printNamaLengkap } from "./modules/printNama.js";
+function square(a, b, c) {
+    return a ** b ** c;
+};
 
-// const nama = "Akmal";
+function square(a, b) {
+    return a ** b;
+};
 
-// printNama(nama);
-// printNama("Ikhsan");
+function square(a) {
+    return a ** a;
+}
 
-// const a = 100;
-// const b = 200;
-// const c = tambah(a, b);
-
-// console.log(c);
-
-// printNamaLengkap('Farih Akmal Haqiqi');
-
-const orang = require('./entity/orang.js');
-
-console.log(orang);
+console.log(square(1, 2));
+console.log(square(3));
+console.log(square(1, 2, 3));
